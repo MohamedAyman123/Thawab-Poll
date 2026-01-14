@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سحب العمرة - مؤسسة ثواب</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Cairo', sans-serif;
+        margin: 0;
+        overflow-x: hidden;
+        /* استخدام صورة الكعبة كخلفية مع طبقة خضراء شفافة */
+        /* background-image: linear-gradient(rgba(6, 78, 59, 0.3), rgba(6, 78, 59, 0.3)), url('https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?q=80&w=2070&auto=format&fit=crop'); */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        /* background-color: #064e3b; */
+      }
+      .perspective-1000 {
+        perspective: 2500px;
+      }
+      /* تحسين مظهر التمرير */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: rgba(6, 78, 59, 0.1);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #059669;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #047857;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+
+
+
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.jsx"></script>
+  </body>
+</html>
