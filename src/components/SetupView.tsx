@@ -1,6 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { Participant } from '../App';
+//we need to get the logo from assets/logo.png 
+
 
 interface SetupViewProps {
   onStart: (participants: Participant[]) => void;
@@ -63,8 +65,7 @@ const SetupView: React.FC<SetupViewProps> = ({ onStart, initialParticipants }) =
         <h1 className="text-4xl font-black text-emerald-900 tracking-tighter">إعداد المراكز</h1>
         <div className="w-24 h-24 relative flex items-center justify-center">
            <div className="flex flex-col items-center">
-              <span className="text-emerald-700 text-4xl font-black leading-none">ثواب</span>
-              <span className="text-[10px] tracking-[0.4em] text-emerald-600/60 font-bold uppercase">THAWAB</span>
+            <img src="/logo.png" alt="Logo" className="w-16 h-16 mb-1" />
            </div>
         </div>
       </div>
