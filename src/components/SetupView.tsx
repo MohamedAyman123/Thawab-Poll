@@ -65,7 +65,7 @@ const SetupView: React.FC<SetupViewProps> = ({ onStart, initialParticipants }) =
         <h1 className="text-4xl font-black text-emerald-900 tracking-tighter">إعداد المراكز</h1>
         <div className="w-24 h-24 relative flex items-center justify-center">
            <div className="flex flex-col items-center">
-            <img src="/logo.png" alt="Logo" className="w-16 h-16 mb-1" />
+            <img src={`${import.meta.env.BASE_URL}new-logo.png`} alt="Logo" className="w-16 h-16 mb-1" />
            </div>
         </div>
       </div>
